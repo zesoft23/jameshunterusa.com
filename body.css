@@ -1,0 +1,157 @@
+body {
+background-color : #ff6666; 
+color : #000000; 
+margin-left : 5%;
+margin-right : 5%;
+/*margin: auto
+margin: auto */
+font-family : Arial, Helvetica, sans-serif; 
+font-size : small; 
+} 
+p {
+font-size : small; 
+text-align : left; 
+letter-spacing : normal; 
+word-spacing : normal; 
+white-space : normal; 
+font-family : Arial, Helvetica, sans-serif; 
+line-height : 150%; 
+} 
+h1 {
+font-size : x-large; 
+color : #000066; 
+background-color : transparent; 
+font-weight : bold; 
+} 
+h2 {
+font-family : Verdana, Tahoma, sans-serif; 
+font-size : large; 
+color : #000066; 
+background-color : transparent; 
+font-weight : bold; 
+} 
+h3 {
+font-family : Verdana, Tahoma, sans-serif; 
+font-size : medium; 
+color : #000066; 
+background-color : transparent; 
+} 
+h4 {
+font-family : Verdana, Tahoma, sans-serif; 
+font-size : medium; 
+color : #000066; 
+background-color : transparent; 
+font-style : italic; 
+} 
+h5 {
+font-family : Verdana, Tahoma, sans-serif; 
+font-size : small; 
+color : #000066; 
+background-color : transparent; 
+font-weight : bold; 
+} 
+h6 {
+font-family : Verdana, Tahoma, sans-serif; 
+font-size : small; 
+font-weight : bold; 
+color : #000066; 
+background-color : transparent; 
+font-style : italic; 
+} 
+a {
+font-size : small; 
+color : #ffffff; 
+background-color : transparent; 
+} 
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+blockquote {
+font-family : Trebuchet MS, Verdana, Tahoma, sans-serif; 
+font-size : small; 
+font-style : italic; 
+line-height : normal; 
+margin-left : 2em; 
+margin-top : 1em; 
+margin-right : 2em; 
+margin-bottom : 1em; 
+white-space : normal; 
+background-color : transparent; 
+} 
+ol {
+list-style-type : decimal; 
+margin-left : 3em;
+<!--5em; -->
+background-color : transparent; 
+} 
+ul {
+list-style-type : square; 
+margin-left : 3em;
+<!--6em; -->
+background-color : transparent; 
+} 
+li {
+font-family : Arial, Helvetica, sans-serif; 
+font-size : small; 
+list-style-position : outside; 
+color : #000000; 
+background-color : transparent; 
+margin-top : 1em; 
+line-height : 130%; 
+} 
+dl {
+list-style-type : none; 
+font-family : Arial, Helvetica, sans-serif; 
+margin-left : 3em; 
+background-color : transparent; 
+} 
+
+dt {
+font-weight : bold; 
+color : #000000; 
+background-color : transparent; 
+white-space : normal; 
+margin-top : 1em; 
+} 
+hr {
+color : #000066; 
+background-color : transparent; 
+line-height : 1px; 
+border-style : solid; 
+} 
+.referenceheader {
+font-family : Verdana, Tahoma, sans-serif; 
+font-size : small; 
+font-style : italic; 
+color : #990000; 
+background-color : transparent; 
+font-weight : bold; 
+} 
+@media print { 
+BODY , P , LI {
+font-size : 10pt; 
+font-family : Times New Roman, Times, serif; 
+} 
+H1 , H2 , H3 , H4 , H5 , H6 {
+page-break-after : avoid; 
+page-break-inside : avoid; 
+} 
+BLOCKQUOTE , PRE {
+page-break-inside : avoid; 
+} 
+UL , OL , DL {
+page-break-before : avoid; 
+}
+} 
